@@ -1,2 +1,2 @@
-# Oracle-Nexeducation-pt1
-Primeros cursos del programa OracleNexeducation
+# Primeros codigos con JavaScript
+Logica de programación primeros pasos
