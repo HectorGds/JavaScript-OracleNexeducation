@@ -1,0 +1,32 @@
+<meta charset= "UTF-8">
+
+<h1> Promedio de IMC </h1>
+
+<script>
+    //Calculo correcto//
+    
+    function saltarlinea () {
+
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+}
+
+    function imprimir(frase) {
+
+        document.write(frase);
+        saltarlinea();
+    }
+
+    function calcularImc(peso,altura) {
+        imc = peso / (altura * altura);
+        return imc;
+
+    }
+    var imcHector = calcularImc(94,1.74);
+    var imcFelipe = calcularImc(88,1.75);
+
+    imprimir("El promedio del IMC calculado de Hector y Felipe es: " + (imcFelipe+imcHector)/2);
+    imprimir("El promedio del IMC calculado de Luisa y Gabriela es: "+ (calcularImc(55,1.50)+ calcularImc(40,1.55))/2);
+
+</script>
